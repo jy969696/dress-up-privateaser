@@ -2,22 +2,35 @@
 <html>
   <head>
     <title>CSS/HTML Workshop with Privateaser</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
-    <div id="bar">
-      <input class="js-name" type="text" placeholder="Bar name"/>
-      <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
-      <input class="js-price-by-person" type="number" placeholder="Price by person"/>
-    </div>
+      <div id="bar">
+      <fieldset>
+        <legend><p1 class="t1">Bar</p1></legend>
+        Bar name : <input class="js-name" type="text" />&nbsp&nbsp&nbsp
+        Price by hour : <input class="js-price-by-hour" type="number"/>&nbsp&nbsp&nbsp
+        Price by person : <input class="js-price-by-person" type="number" /><br />
+      </fieldset>
+      </div>
     <div id="booker">
-      <input class="js-name" type="text" placeholder="Booker name"/>
-      <input class="js-time" type="number" placeholder="Time in h"/>
-      <input class="js-persons" type="number" placeholder="Persons"/>
-      <input class="js-option" type="checkbox" placeholder="Deductible option"/>
+       <fieldset>
+        <legend><p2 class="t2">Booker</p2></legend>
+        Booker name : <input class="js-name" type="text" />&nbsp&nbsp&nbsp
+        Time in h : <input class="js-time" type="number" />&nbsp&nbsp&nbsp
+        Persons : <input class="js-persons" type="number" />
+    </fieldset>
     </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
-    <script src="privateaser.js"></script>
+    <div> 
+      <h1><fieldset>
+            <legend><p3 class="t3">Compute</p3></legend>
+            <p4 class="t4">Deductible option</p4><input class="js-option" type="checkbox" placeholder="Deductible option"/><br/>
+        <button id="compute">Compute</button>
+        <p5 class="t5"><div id="actors">
+    <script src="privateaser.js" output class="output" ></script>
     <script src="index.js"></script>
+  </fieldset></p5></h1>
+</div>
+
   </body>
 </html>

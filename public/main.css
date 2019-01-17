@@ -1,0 +1,18 @@
+
+        #main {
+              width: 600px;
+              margin: 0 auto; 
+            }
+
+body {background-color: rgba(214, 187, 245, 0.842);max-width:920px;font-size:18px;}
+.t1 ,.t2, .t3 {font-weight:bold;font-size:23px;}
+.js-name,.js-price-by-hour,.js-price-by-person,.js-time,.js-persons {
+	border: 1px solid rgb(180, 180, 180);
+	border-radius: 8px;               
+        text-align: center;
+        opacity: 0.5;
+}
+.js-option{opacity: 0.9;}
+h1{max-width:280px;font-size:18px;}
+.t4 {color: rgba(211, 44, 44, 0.842);font-weight:normal;font-size:18px;}
+.t5{font-weight:normal;font-size:20px;}
